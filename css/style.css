@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    margin: auto;
+    max-width: 1200px;
+}
+
+nav{
+    padding: 25px 50px 0px 50px;
+}
+
+header{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    display: flex;
+    max-width: inherit;
+    margin: inherit;
+    justify-content: space-between;
+    padding: 25px 50px 25px 50px;
+}
+
+footer{
+    padding: 50px;
+    display: flex;
+    margin: auto;
+}
+
+h1, h2, h3{
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+h2{
+    font-size: 1.7rem;
+    max-width: 600px;
+}
+
+p{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+}
+
+ol{
+    padding-left: 16pt;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+li{
+    max-width: 750px;
+}
+
+a{
+    color: #326BA7;
+}
+
+.caption{
+    padding-top: 25px;
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+}
+
+.caption-wide{
+    max-width: 500px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+.banner-image{
+    max-width: 600px;
+    padding: 50px 0px;
+}
+
+.section-image{
+    max-width: 400px;
+}
+
+.section-image-medium{
+    max-width: 600px;
+}
+
+.section-image-wide{
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+}
+
+.text-box{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 50px 50px 50px 50px;
+}
+
+.text-box-medium{
+    max-width: 500px;
+}
+
+.text-box-wide{
+    max-width: 650px;
+}
+
+.logo-top{
+    max-width: 200px;
+}
+
+.logo-bottom{
+    max-width: 400px;
+    margin: auto;
+    padding: 50px 0px 50px 0px;
+    
+}
+
+.section-display-block{
+    display: block;
+}
+
+.section-contributors{
+    flex-direction: row;
+    padding: 0px 50px 0px 50px;
+}
+
+.gallery{
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.biography{
+    max-width: 400px;
+    width: 100%;
+}
+
+.title{
+    margin: auto;
+}
+
+@media (max-width: 960px) {
+    header, section, h1, video, .section-image, .text-box, .title, .banner-image, .gallery{
+        display: block;
+        margin: auto;
+        padding: 10px 0px 10px 0px;
+    }
+    .title{
+        text-align: center;
+        margin-right: 0px;
+    }
+    h1{
+        font-size: 2.5rem;
+        margin-right: 0px;
+    }
+    nav{
+        text-align: center;
+
+    }
+    nav, header, section{
+        padding-bottom: 30px;
+        margin: 0px 15px 0px 15px;
+    }
+  }

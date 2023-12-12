@@ -204,4 +204,8 @@ video{
     .caption, .caption-wide{
         padding: 0px 0px 25px 0px;
     }
+    
+    .text-box-wide{
+        width: 100%;
+    }
   }

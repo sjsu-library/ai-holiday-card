@@ -171,6 +171,12 @@ video{
     margin: auto;
 }
 
+.signature-container{
+    display: block;
+    margin: auto;
+    max-width: 200px;
+}
+
 @media (max-width: 960px) {
     header, section, h1, video, .section-image, .text-box, .title, .banner-image, .gallery{
         display: block;
